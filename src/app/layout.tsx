@@ -1,3 +1,5 @@
+import { Theme } from "@radix-ui/themes"
+
 export default function Layout({
   children,
 }: {
@@ -6,7 +8,9 @@ export default function Layout({
   return (
     <html lang="en">
       <body>
-        <main>{children}</main>
+        <Theme>
+            {children}
+        </Theme>
       </body>
     </html>
   )

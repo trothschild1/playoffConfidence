@@ -23,6 +23,12 @@
   "dynamicRoutes": [],
   "staticRoutes": [
     {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
       "page": "/_global-error",
       "regex": "^/_global\\-error(?:/)?$",
       "routeKeys": {},
@@ -33,12 +39,6 @@
       "regex": "^/_not\\-found(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/_not\\-found(?:/)?$"
-    },
-    {
-      "page": "/home",
-      "regex": "^/home(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/home(?:/)?$"
     },
     {
       "page": "/picks",
